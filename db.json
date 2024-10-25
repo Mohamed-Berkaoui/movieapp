@@ -1,0 +1,161 @@
+
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "description": "A skilled thief is given a chance to have his criminal history erased if he can successfully perform inception: planting an idea into a target's subconscious.",
+      "rating": 8.8,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "rating": 9.3,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "3",
+      "title": "The Godfather",
+      "description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+      "rating": 9.2,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "4",
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "rating": 9,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "5",
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "rating": 8.9,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "6",
+      "title": "Fight Club",
+      "description": "An insomniac office worker forms an underground fight club with a soap salesman.",
+      "rating": 8.8,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "7",
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold through the perspective of an Alabama man.",
+      "rating": 8.8,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "8",
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "rating": 8.7,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "9",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "A hobbit is tasked with an epic quest to destroy a powerful ring while being pursued by dark forces.",
+      "rating": 8.8,
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": "10",
+      "title": "The Silence of the Lambs",
+      "description": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer.",
+      "rating": 8.6,
+      "image": "https://example.com/silenceoflambs.jpg"
+    },
+    {
+      "id": "11",
+      "title": "The Usual Suspects",
+      "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a ship, which began when five criminals met at a police lineup.",
+      "rating": 8.5,
+      "image": "https://example.com/usualsuspects.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Schindler's List",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
+      "rating": 8.9,
+      "image": "https://example.com/schindlerslist.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Saving Private Ryan",
+      "description": "In the midst of World War II, Captain Miller and his squad are tasked with rescuing a paratrooper whose brothers have been killed in action.",
+      "rating": 8.6,
+      "image": "https://example.com/savingprivateryan.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Gladiator",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "rating": 8.5,
+      "image": "https://example.com/gladiator.jpg"
+    },
+    {
+      "id": "15",
+      "title": "The Departed",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "rating": 8.5,
+      "image": "https://example.com/departed.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Whiplash",
+      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "rating": 8.5,
+      "image": "https://example.com/whiplash.jpg"
+    },
+    {
+      "id": "17",
+      "title": "The Social Network",
+      "description": "As Harvard students create the social network that would become Facebook, they must deal with both personal and legal complications.",
+      "rating": 7.7,
+      "image": "https://example.com/socialnetwork.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "rating": 8.6,
+      "image": "https://example.com/interstellar.jpg"
+    },
+    {
+      "id": "19",
+      "title": "The Lion King",
+      "description": "Lion cub and future king Simba flees his kingdom after the death of his father, but returns as an adult to reclaim his throne.",
+      "rating": 8.5,
+      "image": "https://example.com/lionking.jpg"
+    },
+    {
+      "id": "20",
+      "title": "Jurassic Park",
+      "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+      "rating": 8.1,
+      "image": "https://example.com/jurassicpark.jpg"
+    },
+    {
+      "id": "6990",
+      "title": "abc",
+      "image": "c",
+      "description": "ccc",
+      "rating": "c"
+    },
+    {
+      "id": "8334",
+      "title": "sdsds",
+      "image": "",
+      "description": "",
+      "rating": ""
+    }
+  ],
+  "series":[{"id":1,"title":"hello"}]
+}
+

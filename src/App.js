@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
+import { useEffect, useState } from 'react';
 import './App.css';
+import Movies from './Movies';
+import Nav from './Nav';
+
+
+// "// npx json-server db.json  to start the backend server"
 
 function App() {
+  const [movies,setMovies]=useState([])
+  const [text,setText]=useState('')
+  const [test,setTest]=useState(true)
+
+  useEffect(()=>{
+    fetch('http://localhost:3000/movies')
+    .then(res=>res.json())
+    .then(json=>{setMovies(json)})
+  },[test])
+
+
+function HandleSearch(e){
+  setText(e.target.value)
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Nav HandleSearch={HandleSearch}/>
+<Movies movieList={movies.filter(movie=>movie.title.includes(text))} setTest={setTest}></Movies>
     </div>
   );
 }

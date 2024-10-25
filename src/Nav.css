@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    height: 70px;
+    padding: 0 30px;
+
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+}
